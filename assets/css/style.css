@@ -104,14 +104,15 @@ body {
 .header_menu ul > li:last-child {
   margin-right: 0px;
 }
-.header_menu li.cartIcon {
-  width: 47px;
-  height: 47px;
-  border-radius: 50%;
+.header_menu li.cartIcon a{
   background-color: #f60;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
+  color: #fff;
+  padding: 5px;
+  padding: 16px;
 }
 .header_menu li.cartIcon img {
   width: 25px;
