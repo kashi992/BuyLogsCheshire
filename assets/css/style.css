@@ -47,7 +47,6 @@ p {
 
 p {
   color: #000;
-  font-size: 15px;
   font-weight: normal;
 }
 
@@ -343,6 +342,11 @@ body {
   color: #990000;
   margin-bottom: 0;
 }
+.heading_firewood p.titleDesc {
+width: 75%;
+margin-left: auto;margin-right: auto;
+margin-top: 20px;
+}
 
 .single_product_wood {
   padding-top: 60px;
@@ -443,7 +447,7 @@ body {
 /* footer css */
 .footer_container {
   padding: 55px 0;
-  background-color: #990000;
+  background-color: #313b48;
   padding-bottom: 30px;
 }
 
@@ -755,6 +759,38 @@ body {
 }
 .threeBoxes .rowBoxes > div p {
   color: inherit;
+}
+.benefitWrap{
+padding: 60px 0;
+}
+.benefitWrap .rowWrap{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 40px;
+}
+.benefitWrap h3{
+  color: #990000;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.benefitWrap p a{
+  color: #990000;
+}
+.benefitWrap p a.btn.btn-primary{
+  background-color: #990000;
+  border-color: #990000;
+  color: #fff;
+}
+.benefitWrap p{
+margin-bottom: 16px;
+}
+.benefitWrap ul{
+padding-left: 20px;
+}
+@media screen and (max-width: 1370px) {
+  .header_menu ul > li > a {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 991px) {
   .processHero ul li.imgGrid > div {
