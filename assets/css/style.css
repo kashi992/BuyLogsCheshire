@@ -98,31 +98,48 @@ body {
 
 .header_menu ul > li {
   display: inline-block;
-  margin-left: 20px;
+  margin-right: 40px;
+}
+.header_menu ul > li:last-child {
+  margin-right: 0px;
+}
+.header_menu li.cartIcon {
+width: 47px;
+height: 47px;
+border-radius: 50%;
+background-color: #f60;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.header_menu li.cartIcon img{
+width: 25px;
 }
 
 .header_menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .header_menu ul > li > a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 700;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  color: #000;
+  color: #f60;
   padding: 40px 0;
   display: block;
 }
 
 .header_menu ul > li > a:hover,
 .header_menu ul > li.active > a {
-  color: #990000;
+  color: #000;
 }
 
 .helloBar {
@@ -706,6 +723,24 @@ body {
   background-color: unset;
   border: 1px solid #990000;
   color: #990000;
+}
+.threeBoxes .rowBoxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+    margin: 40px 0;
+}
+.threeBoxes .rowBoxes > div{
+    color: #FFFFFF;
+    padding-top: 8% ;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.threeBoxes .rowBoxes > div p{
+    color: inherit;
 }
 @media screen and (max-width: 991px) {
   .processHero ul li.imgGrid > div {
