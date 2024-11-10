@@ -344,10 +344,14 @@ body {
 }
 .heading_firewood p.titleDesc {
 width: 75%;
-margin-left: auto;margin-right: auto;
-margin-top: 20px;
+margin: 20px auto;
 }
-
+.productBelow{
+  height: 500px;
+}
+.productBelow img{
+  height: 100%;
+}
 .single_product_wood {
   padding-top: 60px;
   padding-bottom: 60px;
