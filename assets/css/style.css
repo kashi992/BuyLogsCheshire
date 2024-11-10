@@ -375,7 +375,23 @@ margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
-
+.single_wrapper_firewood .badge{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #FF6600;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  line-height: 1.3;
+}
 /* .single_wrapper_firewood img {
     max-width: 100%;
     height: 300px;
