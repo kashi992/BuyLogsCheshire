@@ -103,7 +103,7 @@ body {
 .header_menu ul > li:last-child {
   margin-right: 0px;
 }
-.header_menu li.cartIcon a{
+.header_menu li.cartIcon a {
   background-color: #f60;
   display: flex;
   justify-content: center;
@@ -343,8 +343,8 @@ body {
   margin-bottom: 0;
 }
 .heading_firewood p.titleDesc {
-width: 75%;
-margin: 20px auto;
+  width: 75%;
+  margin: 20px auto;
 }
 .single_product_wood {
   padding-top: 80px;
@@ -373,11 +373,11 @@ margin: 20px auto;
   margin-bottom: 20px;
   text-align: center;
 }
-.single_wrapper_firewood .badge{
+.single_wrapper_firewood .badge {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #FF6600;
+  background-color: #ff6600;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -390,8 +390,8 @@ margin: 20px auto;
   font-weight: 700;
   line-height: 1.3;
 }
-.titleBorder{
-  background-color: #FF6600;
+.titleBorder {
+  background-color: #ff6600;
   height: 4px;
   width: 65px;
   margin: 5px auto;
@@ -777,34 +777,34 @@ margin: 20px auto;
 .threeBoxes .rowBoxes > div p {
   color: inherit;
 }
-.benefitWrap{
-padding: 60px 0;
+.benefitWrap {
+  padding: 60px 0;
 }
-.benefitWrap .rowWrap{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 40px;
+.benefitWrap .rowWrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
 }
-.benefitWrap h3{
+.benefitWrap h3 {
   color: #990000;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.benefitWrap p a{
+.benefitWrap p a {
   color: #990000;
 }
-.benefitWrap p a.btn.btn-primary{
+.benefitWrap p a.btn.btn-primary {
   background-color: #990000;
   border-color: #990000;
   color: #fff;
 }
-.benefitWrap p{
-margin-bottom: 16px;
+.benefitWrap p {
+  margin-bottom: 16px;
 }
-.benefitWrap ul{
-padding-left: 20px;
+.benefitWrap ul {
+  padding-left: 20px;
 }
-.productBelow{
+.productBelow {
   padding: 80px 0;
   position: relative;
   background-image: url(../img/products_below.jpeg);
@@ -813,29 +813,30 @@ padding-left: 20px;
   color: #fff;
   z-index: 1;
 }
-.productBelow *{
+.productBelow * {
   color: inherit;
 }
-.productBelow ul{
-list-style: none;
-border-top: 1px solid #fff;
-padding-top: 20px;margin-top: 20px;
+.productBelow ul {
+  list-style: none;
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  margin-top: 20px;
 }
-.productBelow ul li{
-display: grid;
-gap: 20px;
-align-items: center;
-grid-template-columns: 18px 1fr;
-margin-bottom: 10px;
-font-weight: 500;
+.productBelow ul li {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  grid-template-columns: 18px 1fr;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
-.productBelow ul li p{
-font-weight: inherit;
+.productBelow ul li p {
+  font-weight: inherit;
 }
-.productBelow ul li:last-child{
-margin-bottom: 0px;
+.productBelow ul li:last-child {
+  margin-bottom: 0px;
 }
-.productBelow::before{
+.productBelow::before {
   content: "";
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
@@ -847,36 +848,37 @@ margin-bottom: 0px;
   top: 0;
   bottom: 0;
 }
-.productBelow h2{
-font-size: 50px;
-line-height: 1.2;
-font-weight: 700;
-margin-bottom: 16px;
+.productBelow h2 {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
-.productBelow h3{
-font-size: 40px;
-line-height: 1.2;
-font-weight: 700;
+.productBelow h3 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
 }
-.hero_area.deliveryHero{
-background-image: url(../img/deliveryHero.jpeg);
-background-size: cover;
-background-repeat: no-repeat;
-position: relative;
-z-index: 1;
+.hero_area.deliveryHero {
+  background-image: url(../img/deliveryHero.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
 }
-.hero_area.deliveryHero .heroContent{
+.hero_area.deliveryHero .heroContent {
   background: #fff;
   border: 12px;
   right: 0;
   left: auto;
   text-align: center;
 }
-.hero_area.deliveryHero .heroContent img{
-width: 200px;
-margin-left: auto;margin-right: auto;
+.hero_area.deliveryHero .heroContent img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.hero_area.deliveryHero::before{
+.hero_area.deliveryHero::before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -888,66 +890,67 @@ margin-left: auto;margin-right: auto;
   height: 100%;
   z-index: -1;
 }
-.hero_area.deliveryHero h1{
-font-size: 35px;
-text-align: center;
+.hero_area.deliveryHero h1 {
+  font-size: 35px;
+  text-align: center;
 }
-.hero_area.deliveryHero h1 span{
-font-size: 25px;
-color: #000;
+.hero_area.deliveryHero h1 span {
+  font-size: 25px;
+  color: #000;
 }
-.threeBoxes.deliveryNext{
+.threeBoxes.deliveryNext {
   padding: 100px 0;
   text-align: center;
 }
-.deliveryBoxes{
+.deliveryBoxes {
   padding: 100px 0;
   text-align: center;
 }
-.deliveryBoxes .container{
-display: grid;
-grid-template-areas: "aa aa" "bb cc";
-gap: 30px;
-grid-template-columns: repeat(2, 1fr);
+.deliveryBoxes .container {
+  display: grid;
+  grid-template-areas: "aa aa" "bb cc";
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
 }
-.deliveryBoxes .deliveryBox{
+.deliveryBoxes .deliveryBox {
   border-radius: 5px;
   padding: 5% 3%;
   box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
 }
-.deliveryBoxes .deliveryBox h2{
+.deliveryBoxes .deliveryBox h2 {
   font-weight: 600;
   font-size: 25px;
   color: #000000;
 }
-.deliveryBoxes .deliveryBox h6{
+.deliveryBoxes .deliveryBox h6 {
   font-weight: 300;
   font-size: 14px;
   margin-top: 10px;
 }
-.deliveryBoxes .deliveryBox p{
+.deliveryBoxes .deliveryBox p {
   font-size: 12px;
   margin-bottom: 16px;
 }
-.deliveryBoxes .deliveryBox p:last-child{
+.deliveryBoxes .deliveryBox p:last-child {
   margin-bottom: 0px;
 }
-.deliveryBoxes .deliveryBox p:nth-of-type(1){
+.deliveryBoxes .deliveryBox p:nth-of-type(1) {
   margin-top: 20px;
 }
-.deliveryBoxes .deliveryBox .btn{
-width: fit-content;
-font-size: 16px;
-background-color: #ff6600;
-border-radius: 4px;
-letter-spacing: 1px;
-margin-left: auto;margin-right: auto;
-padding: 10px 16px;
-color: #fff;
-margin-top: 16px;
-display: block;
+.deliveryBoxes .deliveryBox .btn {
+  width: fit-content;
+  font-size: 16px;
+  background-color: #ff6600;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 16px;
+  color: #fff;
+  margin-top: 16px;
+  display: block;
 }
-.deliveryBoxes .deliveryBox .btn.collapseBtn{
+.deliveryBoxes .deliveryBox .btn.collapseBtn {
   width: 80%;
   text-align: start;
   padding-top: 15px;
@@ -957,10 +960,79 @@ display: block;
   color: #fff;
   background-color: #ff6600;
 }
-.deliveryBoxes .deliveryBox .btn.collapseBtn:focus{
- box-shadow: unset;
+.deliveryBoxes .deliveryBox .btn.collapseBtn:focus {
+  box-shadow: unset;
 }
-
+.formWrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 30px;
+}
+.formUl{
+  margin-top: 30px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formWrap label {
+  font-size: 18px;
+  line-height: 1.2;
+  position: relative;
+  color: #000;
+  text-align: start;
+  width: fit-content;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-style: italic;
+}
+.formWrap label::after {
+  content: "*";
+  position: absolute;
+  right: -15px;
+}
+.formWrap .form-control {
+  border-width: 2px;
+  height: 45px;
+  border-color: #000;
+}
+.formWrap textarea.form-control {
+  height: 160px;
+}
+.formWrap .formGroup:nth-of-type(4) {
+  grid-column: 1/3;
+}
+.formWrap .formGroup:nth-of-type(5) {
+  grid-column: 1/2;
+}
+.formWrap .formGroup:nth-of-type(6) {
+  grid-column: 1/4;
+}
+.formWrap .form-check{
+padding-left: 0;
+width: fit-content;
+display: flex;
+gap: 25px;
+align-items: center;
+margin-bottom: 10px;
+}
+.formWrap .form-check label::after{
+  display: none;
+}
+.formWrap .form-check label{
+margin-bottom: 0;
+font-weight: 400;
+}
+.formWrap .form-check .form-check-input{
+margin: 0;
+position: unset;
+width: 18px;
+height: 18px;
+}
+.formWrap .form-check .form-check-input:checked{
+background-color: red;
+}
 @media screen and (max-width: 1370px) {
   .header_menu ul > li > a {
     font-size: 16px;
