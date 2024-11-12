@@ -557,15 +557,12 @@ margin: 20px auto;
 }
 
 .delivery_info h2 {
-  font-size: 40px;
-  color: #669966;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .delivery_info h3 {
-  color: #ff0000;
-  font-weight: 600;
-  margin-bottom: 20px;
+  font-weight: 700;
+  margin: 20px 0;
 }
 
 .delivery_info p {
